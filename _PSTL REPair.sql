@@ -1,0 +1,147 @@
+/* Company database Objects */
+use GIEUR
+
+drop procedure ivReconcileSearch
+drop procedure smChangeAccountIndex
+drop procedure smChangeAccountIndex2
+drop procedure smChangeAccountIndexMfg
+drop procedure smCheckbookModify1
+drop procedure smCustomerChanger1
+drop procedure smCustomerCombiner1
+drop procedure smCustomerCombinerProject
+drop procedure smCustomerNameChange1
+drop procedure smItemChange1
+drop procedure smItemDescriptionChange1
+drop procedure smItemNumberCombinerMfg
+drop procedure smPMSummaryNOINVYTD
+drop procedure smPMSummaryNOINVYTDLYR
+drop procedure smRMSummary
+drop procedure smRMSummaryLYR
+drop procedure smSalesPersonChange1
+drop procedure smSiteChange1
+drop procedure smSiteCombine1
+drop procedure smTerritoryCombiner1
+drop procedure smTerritoryModify1
+drop procedure smVendorChange1
+drop procedure smVendorNameChange1
+drop procedure ta1099ModifierProcess
+drop procedure ta1099ModifierReportOnly
+drop procedure TACallCustomerCombine
+drop procedure TACallItemCombine
+drop procedure TACallItemSiteCombine
+drop procedure taCustomerCombinerPost
+drop procedure taCustomerCombinerPre
+drop procedure taCustomerModifierPost
+drop procedure taCustomerModifierPre
+drop procedure TAEmployeeChanger1
+drop procedure taEmployeeModifierPost
+drop procedure taEmployeeModifierPre
+drop procedure taGLModifyAccount
+drop procedure taItemNumberCombinerPost
+drop procedure taItemNumberCombinerPre
+drop procedure taItemNumberModifierPost
+drop procedure taItemNumberModifierPre
+drop procedure taItemSiteCombinerPost
+drop procedure taItemSiteCombinerPre
+drop procedure taItemSiteModifierPost
+drop procedure taItemSiteModifierPre
+drop procedure taPMVendMstrPeriodSum
+drop procedure taPMVendMstrPeriodSumDetail
+drop procedure taRMCustMstrPeriodSum
+drop procedure taRMCustMstrPeriodSumDetail
+drop procedure taRunProcedure
+drop procedure taSalesPersonPeriodSum
+drop procedure taSalesPersonPeriodSumDetail
+drop procedure taSalesTerrPeriodSum
+drop procedure taSalesTerrPeriodSumDetail
+drop procedure taVendorCombinerPost
+drop procedure taVendorCombinerPre
+drop procedure taVendorModifierPost
+drop procedure taVendorModifierPre
+drop procedure zDP_TA1099F_1
+drop procedure zDP_TA1099F_2
+drop procedure zDP_TA1099L_1
+drop procedure zDP_TA1099L_2
+drop procedure zDP_TA1099N_1
+drop procedure zDP_TA1099N_2
+drop procedure zDP_TA1099SD
+drop procedure zDP_TA1099SI
+drop procedure zDP_TA1099SS_1
+drop procedure zDP_TA1099SS_2
+drop procedure zDP_TA1099UN_1
+drop procedure zDP_TACHANGEF_1
+drop procedure zDP_TACHANGEL_1
+drop procedure zDP_TACHANGEN_1
+drop procedure zDP_TACHANGESD
+drop procedure zDP_TACHANGESI
+drop procedure zDP_TACHANGESS_1
+ 
+ 
+drop table ACColumn
+drop table TA1099
+drop table TACHANGE
+drop table taPMRECALC
+drop table taRMRECALC
+drop table TASCMFG
+ 
+drop trigger taAccountInsert
+drop trigger taCustomerAddressInsert
+drop trigger taCustomerInsert
+drop trigger taVendorAddressInsert
+drop trigger taVendorInsert
+ 
+ 
+/* 
+
+--DYNAMICS database Objects 
+use DYNAMICS
+drop procedure smUserCopy1
+drop procedure smUserWorkCopy1
+drop procedure TA_ParentInsertAddressPM
+drop procedure TA_ParentInsertAddressRM
+drop procedure TA_ParentInsertGL
+drop procedure TA_ParentInsertPM
+drop procedure TA_ParentInsertRM
+drop procedure TAdbowner
+drop procedure TAPlannedCompExec
+drop procedure TAPlannedCompGrant
+drop procedure TAPlannedDropCompUsers
+drop procedure TAPlannedDropCompUsersExec
+drop procedure TAPlannedDropDynUsers
+drop procedure TAPlannedDropLogins
+drop procedure TAPlannedDynGrant
+drop procedure TAPlannedPasswordTable
+drop procedure TAPlannedRecCompUsers
+drop procedure TAPlannedRecDynUsers
+drop procedure TAPlannedRecLogins
+drop procedure TAPlannedSetPasswords
+drop procedure taRunProcedure
+drop procedure zDP_TA_MapF_1
+drop procedure zDP_TA_MapL_1
+drop procedure zDP_TA_MapN_1
+drop procedure zDP_TA_MapSD
+drop procedure zDP_TA_MapSI
+drop procedure zDP_TA_MapSS_1
+drop procedure zDP_TA00860F_1
+drop procedure zDP_TA00860F_2
+drop procedure zDP_TA00860L_1
+drop procedure zDP_TA00860L_2
+drop procedure zDP_TA00860N_1
+drop procedure zDP_TA00860N_2
+drop procedure zDP_TA00860SD
+drop procedure zDP_TA00860SI
+drop procedure zDP_TA00860SS_1
+drop procedure zDP_TA00860SS_2
+drop procedure zDP_TA00860UN_2
+drop procedure zDP_TANPWDF_1
+drop procedure zDP_TANPWDL_1
+drop procedure zDP_TANPWDN_1
+drop procedure zDP_TANPWDSD
+drop procedure zDP_TANPWDSI
+drop procedure zDP_TANPWDSS_1
+ 
+drop table TA_Map
+drop table TA00860
+drop table TANPWD
+drop table TA00850
+*/

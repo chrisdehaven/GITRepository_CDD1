@@ -1,0 +1,6 @@
+SELECT    'select * from ' + TABLE_NAME
+
+FROM         INFORMATION_SCHEMA.COLUMNS
+WHERE     (COLUMN_NAME ='SERLTNUM')
+
+
